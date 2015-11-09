@@ -1,7 +1,6 @@
 #include <inttypes.h>
 #include "Arduino.h"	
 #include "Print.h"
-#include "SoftwareSerial.h"
 
 #define RS485Transmit    HIGH
 #define RS485Receive     LOW

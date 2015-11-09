@@ -1,6 +1,8 @@
+#include <SoftwareSerial.h>
+
 #include "ModbusRtu.h"
 
-#define  ID  1
+#define  ID  2
 Modbus slave(ID, 11, 9, 10);
 int8_t state = 0;
 uint16_t au16data[9];

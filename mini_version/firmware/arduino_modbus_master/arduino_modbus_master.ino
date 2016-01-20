@@ -4,6 +4,7 @@
 
 #define  ID  2
 Modbus slave(ID, 11, 9, 10);
+//Modbus slave(ID, 7, 5, 6);
 int8_t state = 0;
 uint16_t au16data[9];
 
